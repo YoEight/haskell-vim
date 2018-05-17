@@ -35,6 +35,7 @@ syn match haskellTypeSig
   \ haskellSeparator,
   \ haskellParens
 syn keyword haskellWhere where
+syn keyword haskellDeriving deriving
 syn keyword haskellLet let
 syn match HaskellDerive "\<deriving\>\(\s\+\<\(anyclass\|instance\|newtype\|stock\)\>\)\?"
 syn keyword haskellDeclKeyword module class instance newtype in
